@@ -6,6 +6,22 @@
   height: 40vmin;
   pointer-events: none;
 }
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  margin-left: 0.3rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
